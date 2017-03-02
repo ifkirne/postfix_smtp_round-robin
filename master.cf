@@ -1,0 +1,21 @@
+......
+
+interface-1  unix -       -       n       -       -       smtp
+          -o syslog_name=postfix-ip1
+          -o smtp_helo_name=lesnews1-2.zimbra.pro
+          -o smtp_bind_address=78.46.245.97
+
+interface-2  unix -       -       n       -       -       smtp
+          -o syslog_name=postfix-ip2
+          -o smtp_helo_name=lesnews1-3.zimbra.pro
+          -o smtp_bind_address=78.46.245.98
+
+interface-3  unix -       -       n       -       -       smtp
+          -o syslog_name=postfix-ip3
+          -o smtp_helo_name=lesnews1-4.zimbra.pro
+          -o smtp_bind_address=78.46.245.99
+
+interface-4  unix -       -       n       -       -       smtp
+          -o syslog_name=postfix-ip4
+          -o smtp_helo_name=lesnews1-5.zimbra.pro
+          -o smtp_bind_address=78.46.245.100
